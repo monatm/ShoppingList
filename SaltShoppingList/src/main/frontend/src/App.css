@@ -6,6 +6,7 @@
 
 form {
   display: flex;
+  width:auto;
   flex-direction: column;
   margin-bottom: 20px;
 }
@@ -32,6 +33,7 @@ button[type="submit"] {
   font-size: 16px;
   cursor: pointer;
   margin-top: 30px;
+  width: 100% ;
 }
 
 button[type="submit"]:hover {
@@ -59,19 +61,13 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #c82333;
-}
 
-/* Tablet and desktop styles */
 @media (min-width: 768px) {
   .App {
     padding: 40px;
   }
 
-  form {
-    flex-direction: row;
-  }
+  
 
   label {
     margin-right: 10px;
